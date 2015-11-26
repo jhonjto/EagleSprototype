@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/es6"
+            android:title="@string/home_item" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/es6"
+            android:title="@string/sincronization_item" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/es6"
+            android:title="@string/about_item" />
+        <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@drawable/es6"
+            android:title="@string/log_out_item" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/modules_item">
+            <menu>
+                <item
+                android:id="@+id/nav_add_customer"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="@string/addCustomer_item" />
+                <item
+                    android:id="@+id/nav_tracking"
+                    android:icon="@android:drawable/ic_menu_mapmode"
+                    android:title="@string/tracking_item" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

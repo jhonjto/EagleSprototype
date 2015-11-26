@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EagleSprototype</string>
+    <string name="action_settings">Settings</string>
+    <string name="ic_search">Search</string>
+    <string name="ic_user">User</string>
+    <string name="imgLogin">image login</string>
+    <string name="hintEmail">example@gmail.com</string>
+    <string name="hintPassword">password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="linkEnterdev">www.eaglesolutions.co</string>
+    <string name="copyright">Copyright Enterdev S.A.S</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home_item">Inicio</string>
+    <string name="sincronization_item">Sincronización</string>
+    <string name="about_item">Acerca de</string>
+    <string name="addCustomer_item">Agregar Cliente</string>
+    <string name="tracking_item">Tracking</string>
+    <string name="log_out_item">Cerrar Sesión</string>
+    <string name="configuracion_item">Configuración</string>
+    <string name="modules_item">Módulos</string>
+</resources>
